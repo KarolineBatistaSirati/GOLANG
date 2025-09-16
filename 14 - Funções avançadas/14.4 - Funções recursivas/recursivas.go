@@ -14,6 +14,9 @@ func main() {
 	fmt.Println("Recursivas")
 	//RECURSIVA = p/ funcionar ela depende de outra excecução dela msm
 
-	posicao := uint(10)
-	fmt.Println(fibonacci(posicao))
+	posicao := uint(12)
+
+	for i := uint(1); i <= posicao; i++ {
+		fmt.Println(fibonacci(i))
+	}
 }
