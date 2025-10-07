@@ -19,8 +19,15 @@ func main() {
 		if !aberto {
 			break //chamar o comando break é uma forma de sair do looping infinito
 		}
+
 		fmt.Println(mensagem)
 	}
+
+	//REFATORANDO O FOR
+	/*for mensagem := range canal {
+		fmt.Println(mensagem)
+	}
+	*/
 
 	fmt.Println("Fim do programa!")
 }
